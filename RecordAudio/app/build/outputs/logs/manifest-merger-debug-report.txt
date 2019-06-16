@@ -1,0 +1,162 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\6571074252f948db87372799e4553a61\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\edcdf5bea5c5d00a619b111cbed4fb2a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\c9d9b3ae4f414edc39e6209ae4687777\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\84c57e1bbbfa3bdf9c61d0d91eabdd22\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\6557a88bb8a1421ad4875c7c942529f2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\9872c439cde38dc33d7b7c2d1b1d570c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\40909cf750d8603cf1ee1122f2f2173f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\62d5a5ed30b3da007ed5ebabd3441563\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\bd70e09ea6a609d4763ba118d757d695\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\084cb0c9b9363400d62e1629131757b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\7db89b18b8a8a5d1fefca42fba09b146\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\834a9171619fc35416abeba2d700ad6a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\52ab199e0a05a1c44cf4f9e732c09abc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\9fae7c069addaa342d061b458b8a7c7c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\5311b8d2f2871ea1b17b59892ca31e39\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\d6e577b9e247863ad2b1defe8f7c57fd\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\63ae2c8135e542c64d45dd94da86f608\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\bf187b44a3a6389086c1a6f95d0ba694\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\1ea7fe50adc3a9c381881472f0f65c67\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\37b2d24bb63c6e20c11fb9e7718d0cab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\82b7a4ebb112d01958a0e8d5cae94426\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\61f37ab1d9da65631d16134fd3378219\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\36dc219379ed009113576f44da31b5a5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\f54366827e9c07000e908ba77df1fa8e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\bb02ab611268a71f43353771f6116f67\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\9f3cd42cafa84f9131477504d2cb90be\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\4eabe7a59bd3115ae8a7cb2d35be83f6\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:7:22-68
+application
+ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:9:5-23:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\edcdf5bea5c5d00a619b111cbed4fb2a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\edcdf5bea5c5d00a619b111cbed4fb2a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\d6e577b9e247863ad2b1defe8f7c57fd\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\d6e577b9e247863ad2b1defe8f7c57fd\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\63ae2c8135e542c64d45dd94da86f608\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\63ae2c8135e542c64d45dd94da86f608\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\d6e577b9e247863ad2b1defe8f7c57fd\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:15:9-40
+activity#pe.edu.cibertec.recordaudio.MainActivity
+ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:16:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\6571074252f948db87372799e4553a61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\6571074252f948db87372799e4553a61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\edcdf5bea5c5d00a619b111cbed4fb2a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\edcdf5bea5c5d00a619b111cbed4fb2a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\c9d9b3ae4f414edc39e6209ae4687777\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\c9d9b3ae4f414edc39e6209ae4687777\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\84c57e1bbbfa3bdf9c61d0d91eabdd22\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\84c57e1bbbfa3bdf9c61d0d91eabdd22\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\6557a88bb8a1421ad4875c7c942529f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\6557a88bb8a1421ad4875c7c942529f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\9872c439cde38dc33d7b7c2d1b1d570c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\9872c439cde38dc33d7b7c2d1b1d570c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\40909cf750d8603cf1ee1122f2f2173f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\40909cf750d8603cf1ee1122f2f2173f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\62d5a5ed30b3da007ed5ebabd3441563\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\62d5a5ed30b3da007ed5ebabd3441563\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\bd70e09ea6a609d4763ba118d757d695\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\bd70e09ea6a609d4763ba118d757d695\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\084cb0c9b9363400d62e1629131757b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\084cb0c9b9363400d62e1629131757b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\7db89b18b8a8a5d1fefca42fba09b146\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\7db89b18b8a8a5d1fefca42fba09b146\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\834a9171619fc35416abeba2d700ad6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\834a9171619fc35416abeba2d700ad6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\52ab199e0a05a1c44cf4f9e732c09abc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\52ab199e0a05a1c44cf4f9e732c09abc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\9fae7c069addaa342d061b458b8a7c7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\9fae7c069addaa342d061b458b8a7c7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\5311b8d2f2871ea1b17b59892ca31e39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\5311b8d2f2871ea1b17b59892ca31e39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\d6e577b9e247863ad2b1defe8f7c57fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\d6e577b9e247863ad2b1defe8f7c57fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\63ae2c8135e542c64d45dd94da86f608\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\63ae2c8135e542c64d45dd94da86f608\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\bf187b44a3a6389086c1a6f95d0ba694\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\bf187b44a3a6389086c1a6f95d0ba694\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\1ea7fe50adc3a9c381881472f0f65c67\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\1ea7fe50adc3a9c381881472f0f65c67\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\37b2d24bb63c6e20c11fb9e7718d0cab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\37b2d24bb63c6e20c11fb9e7718d0cab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\82b7a4ebb112d01958a0e8d5cae94426\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\82b7a4ebb112d01958a0e8d5cae94426\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\61f37ab1d9da65631d16134fd3378219\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\61f37ab1d9da65631d16134fd3378219\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\36dc219379ed009113576f44da31b5a5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\36dc219379ed009113576f44da31b5a5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\f54366827e9c07000e908ba77df1fa8e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\f54366827e9c07000e908ba77df1fa8e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\bb02ab611268a71f43353771f6116f67\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\bb02ab611268a71f43353771f6116f67\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\9f3cd42cafa84f9131477504d2cb90be\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\9f3cd42cafa84f9131477504d2cb90be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\4eabe7a59bd3115ae8a7cb2d35be83f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\EXTENSION\.gradle\caches\transforms-2\files-2.1\4eabe7a59bd3115ae8a7cb2d35be83f6\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EXTENSION\Desktop\Intermedio\RecordAudio\app\src\main\AndroidManifest.xml

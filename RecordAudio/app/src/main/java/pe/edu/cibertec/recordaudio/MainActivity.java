@@ -16,15 +16,20 @@ import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
-    static final int REQUEST_RECORD_AUDIO = 1;
-    static final String LOG_TAG = "AudioRecorder";
     Button btRecord, btPlay;
+
     MediaRecorder recorder = null;
     MediaPlayer player = null;
+
     String fileName = null;
+
     boolean recording = false;
     boolean playing = false;
+
     boolean permissionGranted = false;
+
+    static final int REQUEST_RECORD_AUDIO = 1;
+    static final String LOG_TAG = "AudioRecorder";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         btRecord = findViewById(R.id.btRecord);
         btPlay = findViewById(R.id.btPlay);
+
 
         fileName = getExternalCacheDir().getAbsolutePath();
         fileName = fileName + "/audiorecorder.3gp";
@@ -45,11 +51,12 @@ public class MainActivity extends AppCompatActivity {
 
                 if (!recording) {
                     startRecording();
-                    btRecord.setText(R.string.stop);
+                    btRecord.setText("Detener");
                 } else {
                     stopRecording();
-                    btRecord.setText(R.string.bt_record);
+                    btRecord.setText("Grabar");
                 }
+
                 recording = !recording;
             }
         });
@@ -60,10 +67,10 @@ public class MainActivity extends AppCompatActivity {
 
                 if (!playing) {
                     startPlaying();
-                    btPlay.setText(R.string.stop);
+                    btPlay.setText("Detener");
                 } else {
                     stopPlaying();
-                    btPlay.setText(R.string.bt_play);
+                    btPlay.setText("Play");
                 }
                 playing = !playing;
             }
@@ -90,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCompletion(MediaPlayer mp) {
                 stopPlaying();
-                btPlay.setText(R.string.bt_play);
+                btPlay.setText("Play");
                 playing = !playing;
 
             }
@@ -153,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         recorder.start();
-        btRecord.setText(R.string.recording);
+        btRecord.setText("Grabando");
 
     }
 
