@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
 
         btRecord = findViewById(R.id.btRecord);
         btPlay = findViewById(R.id.btPlay);
-
-
         fileName = getExternalCacheDir().getAbsolutePath();
         fileName = fileName + "/audiorecorder.3gp";
 
