@@ -1,8 +1,13 @@
 package pe.edu.cibertec.maps;
 
+import android.Manifest;
+import android.annotation.SuppressLint;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -11,6 +16,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
@@ -39,11 +45,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
      * it inside the SupportMapFragment. This method will only be triggered once the user has
      * installed Google Play services and returned to the app.
      */
+    @SuppressLint("MissingPermission")
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
+        CustomInfoWindowAdapter customInfoWindowAdapter = new CustomInfoWindowAdapter(this);
+        mMap.setInfoWindowAdapter(customInfoWindowAdapter);
+
         // Add a marker in Sydney and move the camera
+
 
         /*
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(cibertecMiraflores, 20));
@@ -62,6 +73,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                                 .position(cibertecMiraflores)
                                 .title("Cibertec")
                                 .snippet("Sede Miraflores")
+                                .draggable(true)
                                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
 
                 LatLng cibertecSanIsidrio = new LatLng(-12.1041533, -77.0559932);
@@ -69,9 +81,29 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         new MarkerOptions()
                                 .position(cibertecSanIsidrio)
                                 .title("Cibertec")
+                                .draggable(true)
                                 .snippet("Sede San Isidro")
                                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
+                mMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
+                    @Override
+                    public void onMarkerDragStart(Marker marker) {
+                    }
+
+                    @Override
+                    public void onMarkerDrag(Marker marker) {
+                    }
+
+                    @Override
+                    public void onMarkerDragEnd(Marker marker) {
+                        Toast.makeText(MapsActivity.this,
+                                "Latitud: " + marker.getPosition().latitude
+                                        + "\n Longitud:" + marker.getPosition().longitude,
+                                Toast.LENGTH_SHORT).show();
+
+
+                    }
+                });
                 LatLngBounds latLngBounds = new LatLngBounds.Builder()
                         .include(cibertecMiraflores)
                         .include(cibertecSanIsidrio)
