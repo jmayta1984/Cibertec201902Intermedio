@@ -51,10 +51,10 @@ public class MainActivity extends AppCompatActivity {
 
                 if (!recording) {
                     startRecording();
-                    btRecord.setText("Detener");
+                    btRecord.setText(R.string.stop);
                 } else {
                     stopRecording();
-                    btRecord.setText("Grabar");
+                    btRecord.setText(R.string.bt_play);
                 }
 
                 recording = !recording;
@@ -67,10 +67,10 @@ public class MainActivity extends AppCompatActivity {
 
                 if (!playing) {
                     startPlaying();
-                    btPlay.setText("Detener");
+                    btPlay.setText(R.string.stop);
                 } else {
                     stopPlaying();
-                    btPlay.setText("Play");
+                    btPlay.setText(R.string.bt_play);
                 }
                 playing = !playing;
             }
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCompletion(MediaPlayer mp) {
                 stopPlaying();
-                btPlay.setText("Play");
+                btPlay.setText(R.string.bt_play);
                 playing = !playing;
 
             }
@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         recorder.start();
-        btRecord.setText("Grabando");
+        btRecord.setText(R.string.recording);
 
     }
 
