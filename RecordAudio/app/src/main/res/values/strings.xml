@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">RecordAudio</string>
-    <string name="bt_record">Grabar</string>
-    <string name="bt_play">Play</string>
-    <string name="stop">Detener</string>
-    <string name="recording">Grabando</string>
-</resources>
