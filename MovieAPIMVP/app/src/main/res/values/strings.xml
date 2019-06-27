@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MovieAPI</string>
+    <string name="hint_movie">Película</string>
+    <string name="bt_search">Buscar</string>
+    <string name="title">Título</string>
+    <string name="year">Año</string>
+</resources>
