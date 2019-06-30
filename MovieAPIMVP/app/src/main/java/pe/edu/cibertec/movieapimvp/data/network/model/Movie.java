@@ -1,4 +1,4 @@
-package pe.edu.cibertec.movieapimvp;
+package pe.edu.cibertec.movieapimvp.data.network.model;
 
 import com.google.gson.annotations.SerializedName;
 
