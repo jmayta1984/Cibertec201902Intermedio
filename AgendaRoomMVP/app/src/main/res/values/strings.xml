@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AgendaRoom</string>
+    <string name="hint_nombre">Ingresar name</string>
+    <string name="bt_add">Agregar</string>
+</resources>
