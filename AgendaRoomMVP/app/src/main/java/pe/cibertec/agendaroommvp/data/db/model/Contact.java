@@ -1,4 +1,4 @@
-package pe.cibertec.agendaroommvp;
+package pe.cibertec.agendaroommvp.data.db.model;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;

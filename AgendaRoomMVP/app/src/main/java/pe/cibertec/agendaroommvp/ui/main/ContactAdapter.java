@@ -1,4 +1,4 @@
-package pe.cibertec.agendaroommvp;
+package pe.cibertec.agendaroommvp.ui.main;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -8,6 +8,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.List;
+
+import pe.cibertec.agendaroommvp.R;
+import pe.cibertec.agendaroommvp.data.db.model.Contact;
 
 class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ContactoCelda> {
 
