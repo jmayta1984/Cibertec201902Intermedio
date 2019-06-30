@@ -4,6 +4,7 @@ public class AppPoolWatcher {
 
     INotificationAction action = null;
 
+
     // Inyección de propiedad (atributo)
     public INotificationAction getAction() {
         return action;

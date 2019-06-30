@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         appPoolWatcher.notify(action,"Ocurrió el evento");
         */
 
+
         // Inyección de propiedadd
         EventLogWriter action = new EventLogWriter();
         AppPoolWatcher appPoolWatcher = new AppPoolWatcher();
