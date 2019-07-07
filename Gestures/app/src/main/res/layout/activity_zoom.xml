@@ -5,8 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".ZoomActivity">
 
-    <ImageView
+    <pe.edu.cibertec.gestures.ScaleImageView
         android:src="@drawable/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 </FrameLayout>
