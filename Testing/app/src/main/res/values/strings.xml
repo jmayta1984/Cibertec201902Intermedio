@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Testing</string>
+    <string name="hint_number">Ingrese número</string>
+    <string name="bt_execute">Ejecutar</string>
+</resources>
